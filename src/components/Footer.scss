@@ -1,0 +1,17 @@
+@import '../assets/colors/colors.scss';
+
+.footerWrapper{
+    background-color: $card;
+}
+.footerContent{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 200px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerItem{
+    display: flex;
+    margin-right: 20px;
+}

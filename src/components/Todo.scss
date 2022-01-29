@@ -1,0 +1,57 @@
+@import '../assets/colors/colors.scss';
+
+.itemWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px;
+    gap: 2rem;
+}
+.item{
+    font-size: 32px;
+    font-weight: 600;
+}
+.completed{
+    margin: 0px;
+    padding: 0px;
+}
+.item-button{
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid red;
+    padding: 0;
+    &:hover {
+        background-color:rgb(255, 0, 0);
+    }
+}
+.item-icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    &:hover {
+        transform: scale(0.8);
+    }
+}
+
+.titleWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.buttonWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.completed{
+ font-size: 14px;
+ font-weight: 400;
+}

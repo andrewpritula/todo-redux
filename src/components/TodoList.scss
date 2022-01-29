@@ -1,0 +1,9 @@
+@import '../assets/colors/colors.scss';
+
+.todosWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    min-height: 450px;
+}

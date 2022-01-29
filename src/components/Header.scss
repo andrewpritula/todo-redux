@@ -1,0 +1,26 @@
+@import '../assets/colors/colors';
+
+.headerWrapper{
+    background-color: $card;
+}
+
+.headerContent{
+    display: flex;
+    margin: 10px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerIcon{
+    height: 50px;
+    width: 50px;
+}
